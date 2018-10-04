@@ -2,13 +2,12 @@ import React from 'react';
 import Search from './../components/Search.js';
 import { connect } from 'react-redux';
 import handleSearchChange from '../actions/search.js';
-import handleVideoSearch from '../actions/search.js';
 
 
 var mapDispatchToProps = (dispatch) => {
   return {
     handleSearchInputChange: (video) => {
-      dispatch(handleVideoSearch(video));
+      dispatch(handleSearchChange(video));
     }
   };
 };
