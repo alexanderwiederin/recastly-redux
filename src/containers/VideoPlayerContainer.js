@@ -7,13 +7,10 @@ var mapStateToProps = (state) => {
   };
 };
 
-var mapDispatchToProps = (dispatch) => {
-  return {};
-};
 
 var VideoPlayerContainer = connect(
   mapStateToProps,
-  mapDispatchToProps
+  null
 )(VideoPlayer);
 
 //TODO: define a VideoPlayerContainer component which will hook up your action

@@ -4,8 +4,6 @@ import { connect } from 'react-redux';
 import handleSearchChange from '../actions/search.js';
 import handleVideoSearch from '../actions/search.js';
 
-var mapStateToProps = (state, ownProps) => {
-};
 
 var mapDispatchToProps = (dispatch) => {
   return {
@@ -16,7 +14,7 @@ var mapDispatchToProps = (dispatch) => {
 };
 
 var SearchContainer = connect(
-  mapStateToProps,
+  null,
   mapDispatchToProps
 )(Search);
 
