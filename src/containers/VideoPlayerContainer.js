@@ -8,7 +8,7 @@ var mapStateToProps = (state) => {
 };
 
 var mapDispatchToProps = (dispatch) => {
-  
+  return {};
 };
 
 var VideoPlayerContainer = connect(
